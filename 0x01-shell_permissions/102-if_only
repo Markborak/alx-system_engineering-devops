@@ -1,2 +1,2 @@
 #!/bin/bash
-if [ "$(stat -c '%u' hello)" = "guillaume" ]; then chown betty hello; fi
+chown betty hello 2>/dev/null <<< "$(ls -ld hello | grep -q '^.\+ guillaume ')"
