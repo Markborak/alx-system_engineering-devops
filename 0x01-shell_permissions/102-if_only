@@ -1,2 +1,2 @@
 #!/bin/bash
-chown betty hello 2>/dev/null <<< "$(ls -ld hello | grep -q '^.\+ guillaume ')"
+sudo chown betty hello
