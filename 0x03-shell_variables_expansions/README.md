@@ -1,0 +1,1 @@
+about shell init files, varibles and expansions
